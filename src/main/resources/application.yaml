@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: code-qr-generator
+
+definition:
+  qr:
+    width: 350
+    height: 350
+    people: /json/users.json
+    repository: src/main/resources/repository/
+    type: png
