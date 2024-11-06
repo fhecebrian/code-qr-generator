@@ -12,7 +12,5 @@ public class QrProperties {
 	
 	private final Integer width;
 	private final Integer height;
-	private final String people;
-	private final String repository; 
 	private final String type; 
 }

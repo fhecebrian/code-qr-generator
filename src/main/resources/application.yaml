@@ -2,10 +2,16 @@ spring:
   application:
     name: code-qr-generator
 
+infrastructure:
+  path_directory: /softtek/qr/
+  csv_directory: /csv/
+  qr_directory: /test/
+  zip_directory: /compress/
+  csv_file: users.csv
+  zip_file: qrsCompressed.zip
+
 definition:
   qr:
     width: 350
     height: 350
-    people: /json/users.json
-    repository: src/main/resources/repository/
     type: png
